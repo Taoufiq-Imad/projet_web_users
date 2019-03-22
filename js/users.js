@@ -282,8 +282,7 @@ let totabl=()=>{
 }
 
 let tab=document.querySelector('#totab')
-tab.addEventListener('click',e=>{
-    e.preventDefault()
+tab.addEventListener('click',()=>{
     if (tab.name==1) {
         tab.name=0
         tab.innerText="precedant"
